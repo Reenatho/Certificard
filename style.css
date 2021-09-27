@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  margin: 48px;
+  color: #1c1c1c;
+  padding: 40px;
+  line-height: 10px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.fotoProfile {
+  border-radius: 50% 50%;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.titulo p {
+  line-height: 1px;
+}
+.icon {
+  color: #27408b;
+  font-size: 30px;
+  padding: 15px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.icon:hover {
+  color: #00bfff;
+}
+
+.tema button {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 100px;
+  margin-top: 15px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #1c1c1c;
+  padding: 25px;
+  margin: 48px;
+}
+
+ul {
+  font-weight: 700;
+  font-size: 36px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.links-projetos {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  color: #1c1c1c;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #283048 0%,
+    #859398 51%,
+    #283048 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.dark {
+  background-image: linear-gradient(
+    110.1deg,
+    rgba(30, 2, 83, 1) 44.2%,
+    rgba(198, 55, 160, 1) 138.2%
+  );
+}
+
+.dark .container {
+  background-image: radial-gradient(
+    circle 364px at -6% -6.4%,
+    rgba(95, 75, 139, 1) 16.9%,
+    rgba(128, 204, 221, 1) 88.5%
+  );
+}
